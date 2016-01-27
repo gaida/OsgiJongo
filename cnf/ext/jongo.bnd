@@ -1,0 +1,2 @@
+jongo:\
+	${workspace}/cnf/lib/jongo/jongo-1.2.jar;version=file

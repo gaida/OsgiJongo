@@ -1,0 +1,4 @@
+jackson:\
+	${workspace}/cnf/lib/jackson/jackson-annotations-2.4.1.jar;version=file,\
+	${workspace}/cnf/lib/jackson/jackson-core-2.4.1.jar;version=file,\
+	${workspace}/cnf/lib/jackson/jackson-databind-2.4.1.jar;version=file

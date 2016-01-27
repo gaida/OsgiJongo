@@ -1,0 +1,2 @@
+bson4jackson:\
+	${workspace}/cnf/lib/bson4jackson/bson4jackson-2.4.0.jar;version=file

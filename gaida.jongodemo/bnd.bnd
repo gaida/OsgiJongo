@@ -1,4 +1,30 @@
 -buildpath: \
 	org.apache.felix.dependencymanager;version=4,\
 	osgi.core;version=6,\
-	org.apache.felix.dependencymanager.annotation;version=4
+	org.apache.felix.dependencymanager.annotation;version=4,\
+	org.apache.felix.configadmin;version=1.8,\
+	${jongo},\
+	${mongo-java-driver},\
+	${jackson},\
+	${bson4jackson}
+	
+Private-Package:  \
+	gaida.jongodemo,\
+	com.mongodb.*,\
+	io.netty.*,\
+	org.bson.*,\
+	org.jongo.*,\
+	de.undercouch.bson4jackson.*
+	
+Import-Package:  \
+    !com.google.protobuf,\
+    !com.jcraft.jzlib,\
+    !javassist,\
+    !org.apache.tomcat.jni,\
+    !org.bouncycastle.*,\
+    !org.eclipse.jetty.alpn,\
+    !org.eclipse.jetty.npn,\
+    !org.jboss.marshalling,\
+    !sun.security.*,\
+    !sun.misc.*,\
+    *

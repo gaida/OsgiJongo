@@ -1,0 +1,7 @@
+mongo-java-driver:\
+	${workspace}/cnf/lib/mongo-java-driver/mongo-java-driver-3.2.1.jar;version=file,\
+	${workspace}/cnf/lib/mongo-java-driver/netty-buffer-4.0.26.Final.jar;version=file,\
+	${workspace}/cnf/lib/mongo-java-driver/netty-handler-4.0.26.Final.jar;version=file,\
+	${workspace}/cnf/lib/mongo-java-driver/netty-transport-4.0.26.Final.jar;version=file,\
+	${workspace}/cnf/lib/mongo-java-driver/netty-codec-4.0.26.Final.jar;version=file,\
+	${workspace}/cnf/lib/mongo-java-driver/netty-common-4.0.26.Final.jar;version=file
